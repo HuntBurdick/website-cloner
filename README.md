@@ -21,7 +21,7 @@ bundle install
 To use the scraper, run the scraper.rb script, passing in the URL you want to scrape and the directory you want to save the scraped contents to as arguments:
 
 ```Bash
-ruby scraper.rb https://www.example.com name-of-site
+ruby scrape.rb https://www.example.com name-of-site
 ```
 
 This will scrape the webpage at https://www.example.com and save the contents to ./sites/name-of-site.
